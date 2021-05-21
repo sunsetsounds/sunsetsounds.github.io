@@ -18,6 +18,18 @@
 
 	    gtag('config', 'UA-142569880-1');
 	  </script>
+		<script>
+		destination = "contact@sunsetsoundssf.com";
+		emailName = document.getElementById("mail-name").innerText;
+		emailAddress =document.getElementById("mail-address").innerText;
+		emailSub = "Contact Inquiry: "+emailName+" Address: "+emailAddress;
+		emailBody = document.getElementById("mail-message").innerText;
+		var email_btn = document.getElementById('send_email');
+		email_btn.addEventListener("click",function(e){
+    	e.preventDefault();
+    	location.href = "mailto:"+destination+'&subject='+emailSub+'&body='+emailBody;
+		});
+		</script>
 		<title>Sunset Sounds SF</title>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -448,23 +460,23 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="mailto:sunsetsounds.sf@gmail.com" enctype=”multipart/form-data” data-rel="external" target="_blank">
+								<form method="post" target="_top">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+											<input type="text" name="mail-name" id="mail-name" />
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
+											<input type="text" name="mail-address" id="mail-address" />
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
+											<textarea name="mail-message" id="mail-message" rows="6"></textarea>
 										</div>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="submit" id="send_email" value="Send Message" class="primary" /></li>
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
