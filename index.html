@@ -18,18 +18,7 @@
 
 	    gtag('config', 'UA-142569880-1');
 	  </script>
-		<script>
-		destination = "contact@sunsetsoundssf.com";
-		emailName = document.getElementById("mail-name").innerText;
-		emailAddress =document.getElementById("mail-address").innerText;
-		emailSub = "Contact Inquiry:"+emailName+"Address:"+emailAddress;
-		emailBody = document.getElementById("mail-message").innerText;
-		var email_btn = document.getElementById('send_email');
-		email_btn.addEventListener("click",function(e){
-    	e.preventDefault();
-    	location.href = "mailto:"+destination+'&subject='+emailSub+'&body='+emailBody;
-		});
-		</script>
+
 		<title>Sunset Sounds SF</title>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -460,19 +449,20 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" target="_top">
+								<form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSdgVKEytuWM8bebWJaYWmHE3CZpdLjUPnCYz5i5x6qjOnzlLQ/formResponse"
+								method="post" target="_blank">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
-											<input type="text" name="mail-name" id="mail-name" />
+											<input type="text" name="entry.1794694471" id="mail-name" />
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="text" name="mail-address" id="mail-address" />
+											<input type="text" name="entry.932965755" id="mail-address" />
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
-											<textarea name="mail-message" id="mail-message" rows="6"></textarea>
+											<textarea name="entry.2139253247" id="mail-message" rows="6"></textarea>
 										</div>
 									</div>
 									<ul class="actions">
