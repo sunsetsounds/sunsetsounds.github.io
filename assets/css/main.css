@@ -1321,7 +1321,7 @@ input, select, textarea {
 			transition-delay: 0.75s;
 
       background: rgb(149,36,0);
-      background: linear-gradient(200deg, rgba(149,36,0,1) 0%, rgba(255,204,119,1) 0%, rgba(99,126,201,1) 100%);
+      background: linear-gradient(180deg, rgba(255,204,119,1) 10%, rgba(99,126,201,1) 60%);
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
@@ -1337,7 +1337,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
