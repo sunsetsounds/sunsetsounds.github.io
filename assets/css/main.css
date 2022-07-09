@@ -12,6 +12,10 @@
   /* If you want dots under the hoverable text */
 }
 
+@keyframes {
+
+}
+
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
