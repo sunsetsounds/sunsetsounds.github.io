@@ -333,10 +333,7 @@ input, select, textarea {
 	}
 
 	a {
-		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
@@ -1424,10 +1421,10 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+		-moz-transition: -moz-transform 0.1s ease-in-out, -moz-filter 0.1s ease-in-out, opacity 0.1s ease-in-out;
+		-webkit-transition: -webkit-transform 0.1s ease-in-out, -webkit-filter 0.1s ease-in-out, opacity 0.1s ease-in-out;
+		-ms-transition: -ms-transform 0.1s ease-in-out, -ms-filter 0.1s ease-in-out, opacity 0.1s ease-in-out;
+		transition: transform 0.1s ease-in-out, filter 0.1s ease-in-out, opacity 0.1s ease-in-out;
 		background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
@@ -1437,10 +1434,7 @@ input, select, textarea {
 	}
 
 		#header > * {
-			-moz-transition: opacity 0.325s ease-in-out;
-			-webkit-transition: opacity 0.325s ease-in-out;
-			-ms-transition: opacity 0.325s ease-in-out;
-			transition: opacity 0.325s ease-in-out;
+
 			position: relative;
 			margin-top: 3.5rem;
 		}
@@ -1489,7 +1483,7 @@ input, select, textarea {
 				-webkit-transition: max-height 0.2s ease, padding 0.2s ease, opacity 0.25s ease-in-out;
 				-ms-transition: max-height 0.2s ease, padding 0.2s ease, opacity 0.25s ease-in-out;
 				transition: max-height 0.2s ease, padding 0.2s ease, opacity 0.25s ease-in-out;
-			
+
 				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
@@ -1709,10 +1703,10 @@ input, select, textarea {
 			-webkit-transform: translateY(0.25rem);
 			-ms-transform: translateY(0.25rem);
 			transform: translateY(0.25rem);
-			-moz-transition: opacity 0.325s ease-in-out, -moz-transform 0.325s ease-in-out;
-			-webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
-			-ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
-			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
+			-moz-transition: opacity 0.2s ease-in-out, -moz-transform 0.2s ease-in-out;
+			-webkit-transition: opacity 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+			-ms-transition: opacity 0.2s ease-in-out, -ms-transform 0.2s ease-in-out;
+			transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
 			width: 40rem;
@@ -1797,10 +1791,10 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+		-moz-transition: -moz-transform 0.25s ease-in-out, -moz-filter 0.25s ease-in-out, opacity 0.25s ease-in-out;
+		-webkit-transition: -webkit-transform 0.25s ease-in-out, -webkit-filter 0.25s ease-in-out, opacity 0.25s ease-in-out;
+		-ms-transition: -ms-transform 0.25s ease-in-out, -ms-filter 0.25s ease-in-out, opacity 0.25s ease-in-out;
+		transition: transform 0.25s ease-in-out, filter 0.25s ease-in-out, opacity 0.25s ease-in-out;
 		width: 100%;
 		max-width: 100%;
 		margin-top: 2rem;
