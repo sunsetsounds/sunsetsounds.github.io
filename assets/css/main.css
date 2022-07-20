@@ -47,11 +47,7 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('icomoon.eot?1ef0qt');
-  src:  url('icomoon.eot?1ef0qt#iefix') format('embedded-opentype'),
-    url('icomoon.ttf?1ef0qt') format('truetype'),
-    url('icomoon.woff?1ef0qt') format('woff'),
-    url('icomoon.svg?1ef0qt#icomoon') format('svg');
+  src:  url('icomoon.woff?1ef0qt') format('woff');
 		font-size: 100%;
 		text-align: center;
 		font-size: 1.75rem;
